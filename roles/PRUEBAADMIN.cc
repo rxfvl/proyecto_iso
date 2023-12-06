@@ -8,13 +8,14 @@ int main()
     Persona miguelin("XX3", "miguelin@gmail.com", "5432", "Miguel", "Usuario", "Informatica");
 
 
-    admin.AniadirUsuario(miguelin);
-    if(admin.EliminarUsuario("XX7"))
+    if(admin.ModificarUsuario("XX6"))
     {
-        std::cout << "Usuario eliminado con exito\n";
-        return 0;
+        std::cout << "Usuario modificado con exito"<< '\n';
     }
 
-    return -1;
+    else{
+        std::cout <<"No ta\n";
+    }
+
 
 }

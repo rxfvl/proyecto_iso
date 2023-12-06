@@ -1,2 +1,1 @@
-XX2|pepe@gmail.com|1234|Pepe|Usuario|Medicina
 XX3|miguelin@gmail.com|5432|Miguel|Usuario|Informatica
